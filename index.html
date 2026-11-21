@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Éden Tabletop — sua mesa de RPG em 3D</title>
-  <meta name="description" content="Éden Tabletop: mesa virtual 3D para RPG. Construa casas, controle o tempo e o clima, leia documentos como nos jogos, jogue com tokens animados e ajuste os gráficos ao seu PC.">
+  <meta name="description" content="Éden Tabletop: mesa virtual 3D para RPG. Construa casas com subsolo e alçapões, mobílie com 132 objetos que acendem e mostram suas fotos, controle o tempo e o clima, leia documentos como nos jogos, jogue com tokens animados e ajuste os gráficos ao seu PC.">
   <link rel="icon" href="img/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,6 +27,8 @@
     <nav class="links" id="links">
       <a href="#recursos">Recursos</a>
       <a href="#construir">Construir</a>
+      <a href="#subsolo">Subsolo</a>
+      <a href="#objetos">Objetos</a>
       <a href="#tempo">Tempo</a>
       <a href="#laboratorio">Cenários</a>
       <a href="#camera">Câmera</a>
@@ -46,7 +48,7 @@
         <div class="hero-text">
           <p class="eyebrow reveal">Mesa virtual 3D para RPG</p>
           <h1 class="reveal">Sua mesa de RPG,<br>agora em <span class="rotator" id="rotator">três dimensões</span></h1>
-          <p class="lead reveal">Construa casas de vários andares com telhado, muros e portões, mude o dia para a noite com um arraste, faça chover lá fora, entre no mapa em 1ª pessoa e leia as pistas da aventura como nos grandes jogos de terror. Tudo numa mesa só, sem precisar saber modelar.</p>
+          <p class="lead reveal">Construa casas de vários andares com telhado, muros e portões, cave um subsolo com alçapão, mobílie com luzes que acendem no clique, mude o dia para a noite com um arraste, faça chover lá fora, entre no mapa em 1ª pessoa e leia as pistas da aventura como nos grandes jogos de terror. Tudo numa mesa só, sem precisar saber modelar.</p>
           <div class="cta reveal">
             <a href="https://github.com/oReversi" target="_blank" rel="noopener" class="btn btn-gold">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16" /></svg>
@@ -78,7 +80,7 @@
     <!-- Números -->
     <section class="stats" id="numeros">
       <div class="stat reveal"><b data-count="14">0</b><span>tipos de janela que abrem</span></div>
-      <div class="stat reveal"><b data-count="7">0</b><span>estilos de casa prontos</span></div>
+      <div class="stat reveal"><b data-count="132">0</b><span>objetos feitos para o Éden</span></div>
       <div class="stat reveal"><b data-count="24" data-suffix="h">0</b><span>de ciclo dia e noite</span></div>
       <div class="stat reveal"><b data-count="500" data-suffix=" m">0</b><span>de mesa, do seu tamanho</span></div>
     </section>
@@ -171,6 +173,46 @@
           <h3>Cenários prontos</h3>
           <p>Comece de uma mesa vazia ou abra um cenário pronto, como o Laboratório secreto, com 18 setores e mais de 170 equipamentos.</p>
         </article>
+        <article class="card reveal" data-tilt>
+          <div class="icon"><svg viewBox="0 0 24 24"><path d="M2 9h20M5 9v12h14V9M9 13h6v8H9zM12 3v3M9 5l3-2 3 2"/></svg></div>
+          <h3>Subsolo</h3>
+          <p>Até três andares embaixo da mesa: porão, masmorra, bunker. A mesa some, a câmera desce e a terra aparece em volta.</p>
+        </article>
+        <article class="card reveal" data-tilt>
+          <div class="icon"><svg viewBox="0 0 24 24"><path d="M3 14h18v6H3zM5 14l3-7h8l3 7M12 7v7"/></svg></div>
+          <h3>Alçapões</h3>
+          <p>Tábuas, ferragens, aço, grade, pedra ou escondido no piso. Abre um buraco de verdade e quem estiver em cima cai.</p>
+        </article>
+        <article class="card reveal" data-tilt>
+          <div class="icon"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4zM8 9h8M8 12h5"/></svg></div>
+          <h3>Status no Discord</h3>
+          <p>Seus amigos veem o que você está fazendo: criando o mapa, explorando em 1ª pessoa, lendo um documento, com cena, hora e clima.</p>
+        </article>
+        <article class="card reveal" data-tilt>
+          <div class="icon"><svg viewBox="0 0 24 24"><path d="M3 6h7l2 2h9v12H3zM3 10h18"/></svg></div>
+          <h3>Tudo em pastas</h3>
+          <p>Tokens, documentos e móveis em pastas que você cria e renomeia. As cenas salvas ganham miniatura e também podem ser renomeadas.</p>
+        </article>
+        <article class="card reveal" data-tilt>
+          <div class="icon"><svg viewBox="0 0 24 24"><path d="M4 20V10l8-6 8 6v10zM9 20v-6h6v6"/></svg></div>
+          <h3>Objetos Éden</h3>
+          <p>132 objetos feitos para o Éden, em 13 pastas: sala, quarto, cozinha, rua, veículos, quintal, fazenda, depósito, cemitério…</p>
+        </article>
+        <article class="card reveal" data-tilt>
+          <div class="icon"><svg viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"/></svg></div>
+          <h3>Luzes que acendem</h3>
+          <p>Abajures, lustres, postes, lampiões, velas e faróis de carro. Um clique acende, outro apaga, e a luz ilumina a sala de verdade.</p>
+        </article>
+        <article class="card reveal" data-tilt>
+          <div class="icon"><svg viewBox="0 0 24 24"><path d="M3 4h18v16H3zM3 16l5-5 4 4 3-3 6 6M15.5 8.5h.01"/></svg></div>
+          <h3>Suas fotos nos quadros</h3>
+          <p>Retratos, molduras e uma tela num cavalete: clique e escolha uma imagem do seu PC. Ela fica salva na cena.</p>
+        </article>
+        <article class="card reveal" data-tilt>
+          <div class="icon"><svg viewBox="0 0 24 24"><path d="M3 4h18v13H3zM8 21h8M12 17v4"/></svg></div>
+          <h3>Janela ou tela cheia</h3>
+          <p>Jogue em janela, em tela cheia ou numa janela sem bordas do tamanho da tela. O Éden lembra a sua escolha.</p>
+        </article>
       </div>
     </section>
 
@@ -190,21 +232,82 @@
           <li>12 telhados; cômodos vizinhos com o mesmo telhado viram uma peça só</li>
           <li>Escadas que sobem a altura certa e abrem o buraco no piso de cima, com guarda-corpo</li>
           <li>Muros com arame farpado, cacos de vidro ou cerca elétrica, e 8 tipos de portão que abrem</li>
+          <li>Subsolo de até três andares e alçapões que abrem um buraco no piso</li>
         </ul>
         <div class="tools">
-          <span>Sala</span><span>Parede</span><span>Muro</span><span>Portão</span><span>Chão</span><span>Pintar</span><span>Porta</span><span>Janela</span><span>Escada</span><span>Telhado</span><span>Apagar</span>
+          <span>Sala</span><span>Parede</span><span>Muro</span><span>Portão</span><span>Chão</span><span>Pintar</span><span>Porta</span><span>Janela</span><span>Escada</span><span>Alçapão</span><span>Telhado</span><span>Apagar</span>
         </div>
         <div class="chips" data-switch="build-shot">
           <button class="chip active" data-img="img/casa-telhados.jpg">Telhados</button>
           <button class="chip" data-img="img/casa-andares.jpg">Andares</button>
           <button class="chip" data-img="img/escadas.jpg">Escadas</button>
           <button class="chip" data-img="img/muros-portoes.jpg">Muros e portões</button>
+          <button class="chip" data-img="img/sobrado.jpg">Uma cidade</button>
           <button class="chip" data-img="img/construir.jpg">Planta pronta</button>
           <button class="chip" data-img="img/ui-construir.jpg">O painel</button>
         </div>
       </div>
       <div class="feature-media reveal-right">
         <div class="shot"><img id="build-shot" src="img/casa-telhados.jpg" alt="Casa em L com telhado de 4 águas, varanda, garagem, muro e portões"></div>
+      </div>
+    </section>
+
+    <!-- Destaque: Subsolo e alçapão -->
+    <section class="feature reverse" id="subsolo">
+      <div class="feature-text reveal-right">
+        <p class="eyebrow">Subsolo</p>
+        <h2>O que fica embaixo do chão</h2>
+        <p>Toda casa pode ter um segredo. Crie até três andares de subsolo, ligue com uma escada ou esconda a entrada num alçapão. Quando você desce, a mesa some, a câmera vai junto e o porão aparece cercado de terra.</p>
+        <ul class="checks">
+          <li>Até três subsolos embaixo da mesa: porão, masmorra, cripta, bunker</li>
+          <li>Paredes de terra, rocha bruta, tijolo velho, pedra de cripta ou concreto úmido</li>
+          <li>A escada que sobe do subsolo abre um buraco de verdade na mesa</li>
+          <li>Alçapões de tábuas, madeira com ferragens, aço, grade de ferro, laje de pedra ou escondidos no piso</li>
+          <li>Clique abre, Shift+clique tranca; aberto, quem estiver em cima cai para o andar de baixo</li>
+          <li>O token que desce leva a câmera junto, e a 1ª pessoa também anda lá embaixo</li>
+        </ul>
+        <div class="chips" data-switch="under-shot">
+          <button class="chip active" data-img="img/subsolo.jpg">Subsolo</button>
+          <button class="chip" data-img="img/alcapao.jpg">Alçapão aberto</button>
+          <button class="chip" data-img="img/alcapoes.jpg">Tipos de alçapão</button>
+        </div>
+      </div>
+      <div class="feature-media reveal-left">
+        <div class="shot"><img id="under-shot" src="img/subsolo.jpg" alt="Subsolo com paredes de terra e escada subindo para o térreo"></div>
+      </div>
+    </section>
+
+    <!-- Destaque: Objetos Éden -->
+    <section class="feature" id="objetos">
+      <div class="feature-text reveal-left">
+        <p class="eyebrow">Objetos Éden</p>
+        <h2>Uma casa cheia, e tudo funciona</h2>
+        <p>Uma pasta nova na aba Assets, com 132 objetos feitos para o Éden. Do sofá da sala ao orelhão da esquina, do carro na garagem à lápide no cemitério. E muitos deles fazem alguma coisa quando você clica.</p>
+        <ul class="checks">
+          <li>13 pastas: sala, quarto, cozinha, banheiro, escritório, decoração, iluminação, rua, veículos, quintal, fazenda, depósito e cemitério</li>
+          <li>Abajures, lustres, postes, lampiões e velas: clique acende, clique de novo apaga</li>
+          <li>Retratos e molduras com a imagem que você escolher do seu PC; Shift+clique tira</li>
+          <li>Cavalete com uma tela em branco esperando a sua pintura</li>
+          <li>Relógios que mostram a hora da mesa, TV que liga, ventilador que gira, semáforo que troca de cor</li>
+          <li>Carros com faróis que acendem, inclusive o carro abandonado</li>
+          <li>Aceso, apagado ou com a sua foto: tudo fica salvo na cena e volta com Ctrl+Z</li>
+        </ul>
+        <div class="chips" data-switch="eden-shot">
+          <button class="chip active" data-img="img/eden-sala.jpg">Sala</button>
+          <button class="chip" data-img="img/eden-quarto.jpg">Quarto</button>
+          <button class="chip" data-img="img/eden-cozinha.jpg">Cozinha</button>
+          <button class="chip" data-img="img/eden-luzes.jpg">Iluminação</button>
+          <button class="chip" data-img="img/eden-retrato.jpg">Retrato</button>
+          <button class="chip" data-img="img/eden-cavalete.jpg">Cavalete</button>
+          <button class="chip" data-img="img/eden-rua.jpg">Rua e cidade</button>
+          <button class="chip" data-img="img/eden-veiculos.jpg">Veículos</button>
+          <button class="chip" data-img="img/eden-quintal.jpg">Quintal</button>
+          <button class="chip" data-img="img/eden-fazenda.jpg">Fazenda</button>
+          <button class="chip" data-img="img/eden-cemiterio.jpg">Cemitério</button>
+        </div>
+      </div>
+      <div class="feature-media reveal-right">
+        <div class="shot"><img id="eden-shot" src="img/eden-sala.jpg" alt="Objetos Éden da sala de estar: sofás, poltrona, TV, estante, cortinas e tapetes"></div>
       </div>
     </section>
 
@@ -278,8 +381,8 @@
     </section>
 
     <!-- Cenário pronto: Laboratório -->
-    <section class="feature" id="laboratorio">
-      <div class="feature-text reveal-left">
+    <section class="feature reverse" id="laboratorio">
+      <div class="feature-text reveal-right">
         <p class="eyebrow">Cenários prontos</p>
         <h2>Laboratório secreto, pronto para jogar</h2>
         <p>O Complexo de Pesquisa Ômega foi planejado como uma instalação de verdade, com zonas de segurança que vão da recepção até as áreas restritas. Abra e jogue, ou mexa em tudo: as salas são do construtor e os equipamentos se movem pelo editor.</p>
@@ -291,7 +394,7 @@
           <li>Recepção, eclusa com scanner, segurança, refeitório e casa de máquinas</li>
         </ul>
       </div>
-      <div class="feature-media reveal-right">
+      <div class="feature-media reveal-left">
         <div class="shot stack">
           <img src="img/lab-geral.jpg" alt="Laboratório secreto visto de cima">
           <img class="float" src="img/lab-experimentos.jpg" alt="Cápsulas de contenção e bancadas do laboratório">
@@ -300,19 +403,23 @@
     </section>
 
     <!-- Câmera -->
-    <section class="feature reverse" id="camera">
-      <div class="feature-text reveal-right">
+    <section class="feature" id="camera">
+      <div class="feature-text reveal-left">
         <p class="eyebrow">Câmera</p>
         <h2>Entre no mapa em 1ª pessoa</h2>
         <p>Além da câmera tática de sempre, aperte <b>P</b> e a câmera desce até a altura dos olhos, no ponto que você estava olhando. Ótimo para mostrar aos jogadores o que os personagens veem e para gravar cenas.</p>
         <ul class="checks">
           <li>WASD anda, segurar o botão direito olha em volta</li>
-          <li>Espaço sobe, Ctrl desce, roda do mouse dá zoom como uma lente</li>
+          <li>Anda no chão de verdade: sobe e desce escadas degrau a degrau e cai pelo alçapão aberto</li>
+          <li>X alterna entre andar e voar; voando, Espaço sobe e Ctrl desce</li>
+          <li>Roda do mouse dá zoom como uma lente</li>
           <li>P de novo volta exatamente para onde a câmera tática estava</li>
           <li>Modo cinema (F12): faixas pretas, desfoque e movimento suave, parado onde você olha</li>
+          <li>Funciona também no subsolo: a câmera anda no piso do porão</li>
+          <li>Na câmera tática, dê zoom em cima de um buraco aberto e ela mergulha para o subsolo</li>
         </ul>
       </div>
-      <div class="feature-media reveal-left">
+      <div class="feature-media reveal-right">
         <div class="shot"><img src="img/primeira-pessoa.jpg" alt="Câmera em 1ª pessoa dentro do laboratório"></div>
       </div>
     </section>
@@ -329,9 +436,9 @@
           <button class="chip active" data-img="img/tempo.jpg" data-cap="Tempo: horário, fundo, cor da luz, cenas de iluminação e clima, num painel só.">Tempo</button>
           <button class="chip" data-img="img/ui-construir.jpg" data-cap="Construir: camadas dos andares, 11 ferramentas (sala, parede, muro, portão, escada, telhado…) e as opções de cada uma.">Construir</button>
           <button class="chip" data-img="img/ui-editor.jpg" data-cap="Editor: selecione um objeto, arraste as setas X, Y e Z, gire, incline, duplique ou salve na biblioteca.">Editor</button>
-          <button class="chip" data-img="img/biblioteca.jpg" data-cap="Biblioteca: tokens, móveis 3D, documentos e cenas, com pastas, favoritos e busca.">Biblioteca</button>
-          <button class="chip" data-img="img/ui-opcoes.jpg" data-cap="Opções: qualidade dos gráficos, limite de FPS, resolução 3D e economia de energia.">Opções</button>
-          <button class="chip" data-img="img/ui-ajuda.jpg" data-cap="Ajuda (F1): todos os controles separados por assunto, com as teclas desenhadas.">Ajuda</button>
+          <button class="chip" data-img="img/biblioteca.jpg" data-cap="Biblioteca: tokens, móveis 3D, documentos e cenas, com pastas, favoritos e busca. Os objetos Éden têm a pasta deles.">Biblioteca</button>
+          <button class="chip" data-img="img/ui-opcoes.jpg" data-cap="Opções: janela, tela cheia ou sem bordas, qualidade dos gráficos, limite de FPS, resolução 3D e economia de energia.">Opções</button>
+          <button class="chip" data-img="img/ui-ajuda.jpg" data-cap="Ajuda (F1): uma aba dentro de Opções, com todos os controles separados por assunto e as teclas desenhadas.">Ajuda</button>
         </div>
         <div class="shot"><img id="ui-shot" src="img/tempo.jpg" alt="Painel da interface do Éden Tabletop"></div>
         <p class="ui-cap" id="ui-cap">Tempo: horário, fundo, cor da luz, cenas de iluminação e clima, num painel só.</p>
@@ -367,7 +474,7 @@
       <div class="section-head reveal">
         <p class="eyebrow">Atalhos</p>
         <h2>Feito para jogar no teclado</h2>
-        <p>Os principais comandos. A lista completa está na Ajuda, dentro do app (F1).</p>
+        <p>Os principais comandos. A lista completa está na aba Ajuda das Opções, dentro do app (F1).</p>
       </div>
       <div class="keys">
         <div class="key-row reveal"><span><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></span>Mover a câmera</div>
@@ -378,7 +485,7 @@
         <div class="key-row reveal"><span><kbd>M</kbd></span>Régua</div>
         <div class="key-row reveal"><span><kbd>K</kbd></span>Marcador</div>
         <div class="key-row reveal"><span><kbd>P</kbd></span>Câmera em 1ª pessoa</div>
-        <div class="key-row reveal"><span><kbd>Espaço</kbd><kbd>Ctrl</kbd></span>Sobe / desce (1ª pessoa)</div>
+        <div class="key-row reveal"><span><kbd>X</kbd></span>Andar ou voar (1ª pessoa)</div>
         <div class="key-row reveal"><span><kbd>B</kbd></span>Biblioteca</div>
         <div class="key-row reveal"><span><kbd>F2</kbd></span>Editor de mapa</div>
         <div class="key-row reveal"><span><kbd>F5</kbd>–<kbd>F9</kbd></span>Cenas de iluminação</div>
@@ -399,6 +506,15 @@
       <div class="gallery">
         <figure class="reveal"><img src="img/lab-geral.jpg" alt="Laboratório secreto visto de cima"><figcaption>Laboratório secreto</figcaption></figure>
         <figure class="reveal"><img src="img/lab-controle.jpg" alt="Controle central com mesa holográfica"><figcaption>Controle central</figcaption></figure>
+        <figure class="reveal"><img src="img/eden-luzes.jpg" alt="Abajures, lustres e velas acesos"><figcaption>Luzes que acendem no clique</figcaption></figure>
+        <figure class="reveal"><img src="img/eden-carro.jpg" alt="Carro vermelho com os faróis acesos"><figcaption>Carro com faróis</figcaption></figure>
+        <figure class="reveal"><img src="img/eden-cavalete.jpg" alt="Cavalete com tela em branco"><figcaption>Uma tela para a sua imagem</figcaption></figure>
+        <figure class="reveal"><img src="img/eden-rua.jpg" alt="Poste, semáforo, hidrante, banco e lixeira"><figcaption>Coisas de rua</figcaption></figure>
+        <figure class="reveal"><img src="img/subsolo.jpg" alt="Subsolo com paredes de terra"><figcaption>Um porão embaixo da mesa</figcaption></figure>
+        <figure class="reveal"><img src="img/alcapao.jpg" alt="Alçapão aberto no piso"><figcaption>Alçapão aberto</figcaption></figure>
+        <figure class="reveal"><img src="img/cidade.jpg" alt="Mini cidade vista de cima"><figcaption>Uma cidade feita no Construir</figcaption></figure>
+        <figure class="reveal"><img src="img/casinhas.jpg" alt="Casas com muros de cobogó e portões"><figcaption>Casas, cobogós e portões</figcaption></figure>
+        <figure class="reveal"><img src="img/prisao.jpg" alt="Pavilhões de um campo de prisioneiros"><figcaption>Campo de prisioneiros</figcaption></figure>
         <figure class="reveal"><img src="img/primeira-pessoa.jpg" alt="Câmera em 1ª pessoa"><figcaption>Em 1ª pessoa</figcaption></figure>
         <figure class="reveal"><img src="img/casa-telhados.jpg" alt="Casa com telhados"><figcaption>Telhados que se juntam</figcaption></figure>
         <figure class="reveal"><img src="img/casa-andares.jpg" alt="Dois andares com escada"><figcaption>Dois andares e escada em U</figcaption></figure>
@@ -454,8 +570,10 @@
         <details class="reveal"><summary>Serve para qualquer sistema de RPG?</summary><p>Sim. O Éden é a mesa: grid quadrado ou hexagonal, régua, marcadores e tokens. As regras ficam com o seu grupo.</p></details>
         <details class="reveal"><summary>Posso usar meus próprios mapas e personagens?</summary><p>Pode. Tokens aceitam PNG, JPG e GIF animado; mapas aceitam imagens de qualquer tamanho e modelos 3D (.glb, .gltf, .fbx, .obj).</p></details>
         <details class="reveal"><summary>Preciso saber modelar em 3D?</summary><p>Não. O construtor levanta as paredes sozinho e a biblioteca traz móveis prontos. É desenhar, arrastar e jogar.</p></details>
-        <details class="reveal"><summary>Roda em computador mais fraco?</summary><p>Roda. Em Opções você escolhe entre Baixo, Médio, Alto e Ultra, limita o FPS e baixa a resolução 3D. O Éden também economiza quando a janela fica em segundo plano.</p></details>
+        <details class="reveal"><summary>Roda em computador mais fraco?</summary><p>Roda. Em Opções você escolhe entre Baixo, Médio, Alto e Ultra, limita o FPS e baixa a resolução 3D. O Éden também economiza quando a janela fica em segundo plano, e você pode jogar em janela, tela cheia ou sem bordas.</p></details>
         <details class="reveal"><summary>Dá para fazer prédios e casas de vários andares?</summary><p>Dá. Ponha laje no teto, crie o andar de cima e ligue com uma escada: ela abre o buraco no piso e os tokens sobem pelos degraus. Cada camada mostra só o andar em que você está jogando.</p></details>
+        <details class="reveal"><summary>Dá para fazer porão, masmorra ou passagem secreta?</summary><p>Dá. Crie até três andares de subsolo embaixo da mesa e ligue com uma escada ou com um alçapão, que pode até ficar escondido no piso. Quando o alçapão abre, quem estiver em cima cai para o andar de baixo.</p></details>
+        <details class="reveal"><summary>Dá para pôr as fotos dos meus personagens nos quadros?</summary><p>Dá. Os retratos, molduras e o cavalete da pasta Éden aceitam qualquer imagem do seu PC: clique no quadro e escolha. A imagem fica salva junto com a cena.</p></details>
         <details class="reveal"><summary>Dá para usar PDF de aventura pronta?</summary><p>Dá. Importe o PDF na aba Documentos: cada página vira uma página do leitor, e você coloca o documento na mesa quando os jogadores o encontrarem.</p></details>
         <details class="reveal"><summary>Dá para salvar a sessão?</summary><p>Sim. A cena inteira vai para um arquivo: salas, objetos, tokens, horário, clima e documentos na mesa.</p></details>
       </div>
