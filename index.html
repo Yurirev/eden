@@ -3,8 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Éden Tabletop — sua mesa de RPG em 3D</title>
+  <title>Éden Tabletop: sua mesa de RPG em 3D</title>
   <meta name="description" content="Éden Tabletop: mesa virtual 3D para RPG. Construa casas com subsolo e alçapões, mobílie com 132 objetos que acendem e mostram suas fotos, controle o tempo e o clima, leia documentos como nos jogos, jogue com tokens animados e ajuste os gráficos ao seu PC.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Éden Tabletop: sua mesa de RPG em 3D">
+  <meta property="og:description" content="Mesa virtual 3D para RPG. Construa casas com subsolo e alçapões, mobílie com 132 objetos, controle o tempo e o clima e leia documentos como nos jogos.">
+  <meta property="og:image" content="https://yurirev.github.io/eden/img/escritorio.jpg">
+  <meta property="og:url" content="https://yurirev.github.io/eden/">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="img/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -48,7 +54,7 @@
         <div class="hero-text">
           <p class="eyebrow reveal">Mesa virtual 3D para RPG</p>
           <h1 class="reveal">Sua mesa de RPG,<br>agora em <span class="rotator" id="rotator">três dimensões</span></h1>
-          <p class="lead reveal">Construa casas de vários andares com telhado, muros e portões, cave um subsolo com alçapão, mobílie com luzes que acendem no clique, mude o dia para a noite com um arraste, faça chover lá fora, entre no mapa em 1ª pessoa e leia as pistas da aventura como nos grandes jogos de terror. Tudo numa mesa só, sem precisar saber modelar.</p>
+          <p class="lead reveal">Construa casas de vários andares com telhado, muros e portões, cave um subsolo com alçapão, mobílie com luzes que acendem no clique, mude o dia para a noite com um arraste, faça chover lá fora, entre no mapa em 1ª pessoa e leia as pistas da aventura como nos grandes jogos de terror. Tudo numa mesa só, e você não precisa saber modelar.</p>
           <div class="cta reveal">
             <a href="https://github.com/oReversi" target="_blank" rel="noopener" class="btn btn-gold">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16" /></svg>
@@ -79,10 +85,10 @@
 
     <!-- Números -->
     <section class="stats" id="numeros">
-      <div class="stat reveal"><b data-count="14">0</b><span>tipos de janela que abrem</span></div>
-      <div class="stat reveal"><b data-count="132">0</b><span>objetos feitos para o Éden</span></div>
-      <div class="stat reveal"><b data-count="24" data-suffix="h">0</b><span>de ciclo dia e noite</span></div>
-      <div class="stat reveal"><b data-count="500" data-suffix=" m">0</b><span>de mesa, do seu tamanho</span></div>
+      <div class="stat reveal"><b data-count="14">14</b><span>tipos de janela que abrem</span></div>
+      <div class="stat reveal"><b data-count="132">132</b><span>objetos feitos para o Éden</span></div>
+      <div class="stat reveal"><b data-count="24" data-suffix="h">24h</b><span>de ciclo dia e noite</span></div>
+      <div class="stat reveal"><b data-count="500" data-suffix=" m">500 m</b><span>de mesa, do seu tamanho</span></div>
     </section>
 
     <!-- Recursos -->
@@ -156,7 +162,7 @@
         <article class="card reveal" data-tilt>
           <div class="icon"><svg viewBox="0 0 24 24"><path d="M3 21v-4h4v-4h4V9h4V5h6"/></svg></div>
           <h3>Escadas inteligentes</h3>
-          <p>Reta, em L, em U, espiral, flutuante ou marinheiro. Ela gira para caber, sobe a altura certa e abre o buraco no andar de cima.</p>
+          <p>Reta, reta com patamar, em L, em U, espiral, flutuante ou marinheiro. Ela gira para caber, sobe a altura certa e abre o buraco no andar de cima.</p>
         </article>
         <article class="card reveal" data-tilt>
           <div class="icon"><svg viewBox="0 0 24 24"><path d="M2 21V7h3v14M19 21V7h3v14M5 9h14v12H5zM8 9v12M11 9v12M14 9v12M17 9v12"/></svg></div>
@@ -248,7 +254,7 @@
         </div>
       </div>
       <div class="feature-media reveal-right">
-        <div class="shot"><img id="build-shot" src="img/casa-telhados.jpg" alt="Casa em L com telhado de 4 águas, varanda, garagem, muro e portões"></div>
+        <div class="shot"><img loading="lazy" id="build-shot" src="img/casa-telhados.jpg" alt="Casa em L com telhado de 4 águas, varanda, garagem, muro e portões"></div>
       </div>
     </section>
 
@@ -273,7 +279,7 @@
         </div>
       </div>
       <div class="feature-media reveal-left">
-        <div class="shot"><img id="under-shot" src="img/subsolo.jpg" alt="Subsolo com paredes de terra e escada subindo para o térreo"></div>
+        <div class="shot"><img loading="lazy" id="under-shot" src="img/subsolo.jpg" alt="Subsolo com paredes de terra e escada subindo para o térreo"></div>
       </div>
     </section>
 
@@ -307,7 +313,7 @@
         </div>
       </div>
       <div class="feature-media reveal-right">
-        <div class="shot"><img id="eden-shot" src="img/eden-sala.jpg" alt="Objetos Éden da sala de estar: sofás, poltrona, TV, estante, cortinas e tapetes"></div>
+        <div class="shot"><img loading="lazy" id="eden-shot" src="img/eden-sala.jpg" alt="Objetos Éden da sala de estar: sofás, poltrona, TV, estante, cortinas e tapetes"></div>
       </div>
     </section>
 
@@ -316,7 +322,7 @@
       <div class="feature-text reveal-right">
         <p class="eyebrow">Tempo</p>
         <h2>Do sol do meio-dia à lua de sangue</h2>
-        <p>Arraste o horário e veja o céu mudar: amanhecer, tarde, pôr do sol, noite estrelada. Pinte a luz de vermelho para aquela cena que ninguém vai esquecer.</p>
+        <p>Arraste o horário e veja o céu mudar: amanhecer, tarde, pôr do sol, noite estrelada. Pinte a luz de vermelho quando a cena pedir.</p>
         <div class="sky-demo" id="sky-demo">
           <div class="sky" id="sky">
             <div class="stars" id="stars"></div>
@@ -341,8 +347,8 @@
       </div>
       <div class="feature-media reveal-left">
         <div class="shot stack">
-          <img src="img/tempo.jpg" alt="Painel Tempo com o escritório à noite e neve">
-          <img class="float" src="img/lua-de-sangue.jpg" alt="Lua de sangue: luz vermelha na mesa">
+          <img loading="lazy" src="img/tempo.jpg" alt="Painel Tempo com o escritório à noite e neve">
+          <img loading="lazy" class="float" src="img/lua-de-sangue.jpg" alt="Lua de sangue: luz vermelha na mesa">
         </div>
       </div>
     </section>
@@ -360,8 +366,8 @@
           <li>Passe o mouse e aperte Delete para tirar da mesa sem apagar da biblioteca</li>
         </ul>
         <div class="doc-shots">
-          <img src="img/documento.jpg" alt="Documento de pé no escritório, perto da árvore de Natal">
-          <img src="img/leitor.jpg" alt="Leitor de documentos com o Diário do vigia aberto">
+          <img loading="lazy" src="img/documento.jpg" alt="Documento de pé no escritório, perto da árvore de Natal">
+          <img loading="lazy" src="img/leitor.jpg" alt="Leitor de documentos com o Diário do vigia aberto">
         </div>
         <button class="btn btn-gold" id="open-doc">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 2h10l5 5v15H5zM15 2v5h5"/></svg>
@@ -374,7 +380,7 @@
             <h4>Diário do vigia</h4>
             <p>Terceira noite. A névoa voltou a cobrir a estrada e as lanternas da torre já não alcançam o portão.</p>
             <p>Ouvi passos no pátio, mas não havia ninguém. Deixei a chave sob a pedra do poço, como combinado.</p>
-            <p class="sign">— página 1 de 3</p>
+            <p class="sign">Página 1 de 3</p>
           </div>
         </div>
       </div>
@@ -396,8 +402,8 @@
       </div>
       <div class="feature-media reveal-left">
         <div class="shot stack">
-          <img src="img/lab-geral.jpg" alt="Laboratório secreto visto de cima">
-          <img class="float" src="img/lab-experimentos.jpg" alt="Cápsulas de contenção e bancadas do laboratório">
+          <img loading="lazy" src="img/lab-geral.jpg" alt="Laboratório secreto visto de cima">
+          <img loading="lazy" class="float" src="img/lab-experimentos.jpg" alt="Cápsulas de contenção e bancadas do laboratório">
         </div>
       </div>
     </section>
@@ -407,7 +413,7 @@
       <div class="feature-text reveal-left">
         <p class="eyebrow">Câmera</p>
         <h2>Entre no mapa em 1ª pessoa</h2>
-        <p>Além da câmera tática de sempre, aperte <b>P</b> e a câmera desce até a altura dos olhos, no ponto que você estava olhando. Ótimo para mostrar aos jogadores o que os personagens veem e para gravar cenas.</p>
+        <p>Além da câmera tática de sempre, aperte <b>P</b> e a câmera desce até a altura dos olhos, no ponto que você estava olhando. Dá para mostrar aos jogadores o que os personagens veem, ou gravar cenas.</p>
         <ul class="checks">
           <li>WASD anda, segurar o botão direito olha em volta</li>
           <li>Anda no chão de verdade: sobe e desce escadas degrau a degrau e cai pelo alçapão aberto</li>
@@ -420,7 +426,7 @@
         </ul>
       </div>
       <div class="feature-media reveal-right">
-        <div class="shot"><img src="img/primeira-pessoa.jpg" alt="Câmera em 1ª pessoa dentro do laboratório"></div>
+        <div class="shot"><img loading="lazy" src="img/primeira-pessoa.jpg" alt="Câmera em 1ª pessoa dentro do laboratório"></div>
       </div>
     </section>
 
@@ -434,13 +440,13 @@
       <div class="ui-tour reveal">
         <div class="chips ui-chips" data-switch="ui-shot" data-caption="ui-cap">
           <button class="chip active" data-img="img/tempo.jpg" data-cap="Tempo: horário, fundo, cor da luz, cenas de iluminação e clima, num painel só.">Tempo</button>
-          <button class="chip" data-img="img/ui-construir.jpg" data-cap="Construir: camadas dos andares, 11 ferramentas (sala, parede, muro, portão, escada, telhado…) e as opções de cada uma.">Construir</button>
+          <button class="chip" data-img="img/ui-construir.jpg" data-cap="Construir: camadas dos andares, 12 ferramentas (sala, parede, muro, portão, escada, telhado…) e as opções de cada uma.">Construir</button>
           <button class="chip" data-img="img/ui-editor.jpg" data-cap="Editor: selecione um objeto, arraste as setas X, Y e Z, gire, incline, duplique ou salve na biblioteca.">Editor</button>
           <button class="chip" data-img="img/biblioteca.jpg" data-cap="Biblioteca: tokens, móveis 3D, documentos e cenas, com pastas, favoritos e busca. Os objetos Éden têm a pasta deles.">Biblioteca</button>
           <button class="chip" data-img="img/ui-opcoes.jpg" data-cap="Opções: janela, tela cheia ou sem bordas, qualidade dos gráficos, limite de FPS, resolução 3D e economia de energia.">Opções</button>
           <button class="chip" data-img="img/ui-ajuda.jpg" data-cap="Ajuda (F1): uma aba dentro de Opções, com todos os controles separados por assunto e as teclas desenhadas.">Ajuda</button>
         </div>
-        <div class="shot"><img id="ui-shot" src="img/tempo.jpg" alt="Painel da interface do Éden Tabletop"></div>
+        <div class="shot"><img loading="lazy" id="ui-shot" src="img/tempo.jpg" alt="Painel da interface do Éden Tabletop"></div>
         <p class="ui-cap" id="ui-cap">Tempo: horário, fundo, cor da luz, cenas de iluminação e clima, num painel só.</p>
       </div>
     </section>
@@ -450,7 +456,7 @@
       <div class="feature-text reveal-right">
         <p class="eyebrow">Para o mestre</p>
         <h2>A mesa trabalha a seu favor</h2>
-        <p>Prepare a sessão com calma e conduza sem travar: o Éden cuida da câmera, da luz e dos detalhes.</p>
+        <p>Prepare a sessão com calma e conduza sem travar. O Éden cuida da câmera e da luz.</p>
         <ul class="checks">
           <li>Câmera tática: orbite, aproxime e centralize na seleção; visão geral com uma tecla</li>
           <li>Modo limpo (F11) e modo cinema (F12) para os momentos de suspense</li>
@@ -463,8 +469,8 @@
       </div>
       <div class="feature-media reveal-left">
         <div class="shot stack">
-          <img src="img/escritorio-sala.jpg" alt="Sala de estar do escritório vista de perto">
-          <img class="float" src="img/escritorio-arvore.jpg" alt="Árvore de Natal iluminada">
+          <img loading="lazy" src="img/escritorio-sala.jpg" alt="Sala de estar do escritório vista de perto">
+          <img loading="lazy" class="float" src="img/escritorio-arvore.jpg" alt="Árvore de Natal iluminada">
         </div>
       </div>
     </section>
@@ -488,7 +494,7 @@
         <div class="key-row reveal"><span><kbd>X</kbd></span>Andar ou voar (1ª pessoa)</div>
         <div class="key-row reveal"><span><kbd>B</kbd></span>Biblioteca</div>
         <div class="key-row reveal"><span><kbd>F2</kbd></span>Editor de mapa</div>
-        <div class="key-row reveal"><span><kbd>F5</kbd>–<kbd>F9</kbd></span>Cenas de iluminação</div>
+        <div class="key-row reveal"><span><kbd>F5</kbd> a <kbd>F9</kbd></span>Cenas de iluminação</div>
         <div class="key-row reveal"><span><kbd>F11</kbd></span>Modo limpo</div>
         <div class="key-row reveal"><span><kbd>F12</kbd></span>Modo cinema</div>
         <div class="key-row reveal"><span><kbd>Ctrl</kbd><kbd>S</kbd></span>Salvar a cena</div>
@@ -504,27 +510,27 @@
         <p>Imagens reais do Éden Tabletop. Clique para ampliar.</p>
       </div>
       <div class="gallery">
-        <figure class="reveal"><img src="img/lab-geral.jpg" alt="Laboratório secreto visto de cima"><figcaption>Laboratório secreto</figcaption></figure>
-        <figure class="reveal"><img src="img/lab-controle.jpg" alt="Controle central com mesa holográfica"><figcaption>Controle central</figcaption></figure>
-        <figure class="reveal"><img src="img/eden-luzes.jpg" alt="Abajures, lustres e velas acesos"><figcaption>Luzes que acendem no clique</figcaption></figure>
-        <figure class="reveal"><img src="img/eden-carro.jpg" alt="Carro vermelho com os faróis acesos"><figcaption>Carro com faróis</figcaption></figure>
-        <figure class="reveal"><img src="img/eden-cavalete.jpg" alt="Cavalete com tela em branco"><figcaption>Uma tela para a sua imagem</figcaption></figure>
-        <figure class="reveal"><img src="img/eden-rua.jpg" alt="Poste, semáforo, hidrante, banco e lixeira"><figcaption>Coisas de rua</figcaption></figure>
-        <figure class="reveal"><img src="img/subsolo.jpg" alt="Subsolo com paredes de terra"><figcaption>Um porão embaixo da mesa</figcaption></figure>
-        <figure class="reveal"><img src="img/alcapao.jpg" alt="Alçapão aberto no piso"><figcaption>Alçapão aberto</figcaption></figure>
-        <figure class="reveal"><img src="img/cidade.jpg" alt="Mini cidade vista de cima"><figcaption>Uma cidade feita no Construir</figcaption></figure>
-        <figure class="reveal"><img src="img/casinhas.jpg" alt="Casas com muros de cobogó e portões"><figcaption>Casas, cobogós e portões</figcaption></figure>
-        <figure class="reveal"><img src="img/prisao.jpg" alt="Pavilhões de um campo de prisioneiros"><figcaption>Campo de prisioneiros</figcaption></figure>
-        <figure class="reveal"><img src="img/primeira-pessoa.jpg" alt="Câmera em 1ª pessoa"><figcaption>Em 1ª pessoa</figcaption></figure>
-        <figure class="reveal"><img src="img/casa-telhados.jpg" alt="Casa com telhados"><figcaption>Telhados que se juntam</figcaption></figure>
-        <figure class="reveal"><img src="img/casa-andares.jpg" alt="Dois andares com escada"><figcaption>Dois andares e escada em U</figcaption></figure>
-        <figure class="reveal"><img src="img/escadas.jpg" alt="Tipos de escada"><figcaption>Sete tipos de escada</figcaption></figure>
-        <figure class="reveal"><img src="img/muros-portoes.jpg" alt="Muros e portões"><figcaption>Muros e portões</figcaption></figure>
-        <figure class="reveal"><img src="img/escritorio.jpg" alt="Escritório de luxo natalino à noite"><figcaption>Escritório de luxo natalino</figcaption></figure>
-        <figure class="reveal"><img src="img/escritorio-arvore.jpg" alt="Árvore de Natal iluminada"><figcaption>Luzes de Natal</figcaption></figure>
-        <figure class="reveal"><img src="img/chuva.jpg" alt="Chuva no fim da tarde"><figcaption>Chuva no fim da tarde</figcaption></figure>
-        <figure class="reveal"><img src="img/lua-de-sangue.jpg" alt="Lua de sangue"><figcaption>Lua de sangue</figcaption></figure>
-        <figure class="reveal"><img src="img/leitor.jpg" alt="Leitor de documentos"><figcaption>O leitor de documentos</figcaption></figure>
+        <figure class="reveal"><img loading="lazy" src="img/lab-geral.jpg" alt="Laboratório secreto visto de cima"><figcaption>Laboratório secreto</figcaption></figure>
+        <figure class="reveal"><img loading="lazy" src="img/lab-controle.jpg" alt="Controle central com mesa holográfica"><figcaption>Controle central</figcaption></figure>
+        <figure class="reveal"><img loading="lazy" src="img/eden-luzes.jpg" alt="Abajures, lustres e velas acesos"><figcaption>Luzes que acendem no clique</figcaption></figure>
+        <figure class="reveal"><img loading="lazy" src="img/eden-carro.jpg" alt="Carro vermelho com os faróis acesos"><figcaption>Carro com faróis</figcaption></figure>
+        <figure class="reveal"><img loading="lazy" src="img/eden-cavalete.jpg" alt="Cavalete com tela em branco"><figcaption>Uma tela para a sua imagem</figcaption></figure>
+        <figure class="reveal"><img loading="lazy" src="img/eden-rua.jpg" alt="Poste, semáforo, hidrante, banco e lixeira"><figcaption>Coisas de rua</figcaption></figure>
+        <figure class="reveal"><img loading="lazy" src="img/subsolo.jpg" alt="Subsolo com paredes de terra"><figcaption>Um porão embaixo da mesa</figcaption></figure>
+        <figure class="reveal"><img loading="lazy" src="img/alcapao.jpg" alt="Alçapão aberto no piso"><figcaption>Alçapão aberto</figcaption></figure>
+        <figure class="reveal"><img loading="lazy" src="img/cidade.jpg" alt="Mini cidade vista de cima"><figcaption>Uma cidade feita no Construir</figcaption></figure>
+        <figure class="reveal"><img loading="lazy" src="img/casinhas.jpg" alt="Casas com muros de cobogó e portões"><figcaption>Casas, cobogós e portões</figcaption></figure>
+        <figure class="reveal"><img loading="lazy" src="img/prisao.jpg" alt="Pavilhões de um campo de prisioneiros"><figcaption>Campo de prisioneiros</figcaption></figure>
+        <figure class="reveal"><img loading="lazy" src="img/primeira-pessoa.jpg" alt="Câmera em 1ª pessoa"><figcaption>Em 1ª pessoa</figcaption></figure>
+        <figure class="reveal"><img loading="lazy" src="img/casa-telhados.jpg" alt="Casa com telhados"><figcaption>Telhados que se juntam</figcaption></figure>
+        <figure class="reveal"><img loading="lazy" src="img/casa-andares.jpg" alt="Dois andares com escada"><figcaption>Dois andares e escada em U</figcaption></figure>
+        <figure class="reveal"><img loading="lazy" src="img/escadas.jpg" alt="Tipos de escada"><figcaption>Sete tipos de escada</figcaption></figure>
+        <figure class="reveal"><img loading="lazy" src="img/muros-portoes.jpg" alt="Muros e portões"><figcaption>Muros e portões</figcaption></figure>
+        <figure class="reveal"><img loading="lazy" src="img/escritorio.jpg" alt="Escritório de luxo natalino à noite"><figcaption>Escritório de luxo natalino</figcaption></figure>
+        <figure class="reveal"><img loading="lazy" src="img/escritorio-arvore.jpg" alt="Árvore de Natal iluminada"><figcaption>Luzes de Natal</figcaption></figure>
+        <figure class="reveal"><img loading="lazy" src="img/chuva.jpg" alt="Chuva no fim da tarde"><figcaption>Chuva no fim da tarde</figcaption></figure>
+        <figure class="reveal"><img loading="lazy" src="img/lua-de-sangue.jpg" alt="Lua de sangue"><figcaption>Lua de sangue</figcaption></figure>
+        <figure class="reveal"><img loading="lazy" src="img/leitor.jpg" alt="Leitor de documentos"><figcaption>O leitor de documentos</figcaption></figure>
       </div>
     </section>
 
@@ -569,7 +575,7 @@
       <div class="faq">
         <details class="reveal"><summary>Serve para qualquer sistema de RPG?</summary><p>Sim. O Éden é a mesa: grid quadrado ou hexagonal, régua, marcadores e tokens. As regras ficam com o seu grupo.</p></details>
         <details class="reveal"><summary>Posso usar meus próprios mapas e personagens?</summary><p>Pode. Tokens aceitam PNG, JPG e GIF animado; mapas aceitam imagens de qualquer tamanho e modelos 3D (.glb, .gltf, .fbx, .obj).</p></details>
-        <details class="reveal"><summary>Preciso saber modelar em 3D?</summary><p>Não. O construtor levanta as paredes sozinho e a biblioteca traz móveis prontos. É desenhar, arrastar e jogar.</p></details>
+        <details class="reveal"><summary>Preciso saber modelar em 3D?</summary><p>Não. O construtor levanta as paredes sozinho e a biblioteca já vem com móveis prontos. Você desenha, arrasta e joga.</p></details>
         <details class="reveal"><summary>Roda em computador mais fraco?</summary><p>Roda. Em Opções você escolhe entre Baixo, Médio, Alto e Ultra, limita o FPS e baixa a resolução 3D. O Éden também economiza quando a janela fica em segundo plano, e você pode jogar em janela, tela cheia ou sem bordas.</p></details>
         <details class="reveal"><summary>Dá para fazer prédios e casas de vários andares?</summary><p>Dá. Ponha laje no teto, crie o andar de cima e ligue com uma escada: ela abre o buraco no piso e os tokens sobem pelos degraus. Cada camada mostra só o andar em que você está jogando.</p></details>
         <details class="reveal"><summary>Dá para fazer porão, masmorra ou passagem secreta?</summary><p>Dá. Crie até três andares de subsolo embaixo da mesa e ligue com uma escada ou com um alçapão, que pode até ficar escondido no piso. Quando o alçapão abre, quem estiver em cima cai para o andar de baixo.</p></details>
@@ -578,33 +584,33 @@
         <details class="reveal"><summary>Dá para salvar a sessão?</summary><p>Sim. A cena inteira vai para um arquivo: salas, objetos, tokens, horário, clima e documentos na mesa.</p></details>
       </div>
     </section>
+    <!-- Proposta -->
+    <section class="section about" id="proposta">
+      <div class="section-head reveal">
+        <p class="eyebrow">Proposta</p>
+        <h2>Mestrar em 3D sem barreiras</h2>
+      </div>
+      <div class="about-body reveal">
+        <p>O <b>Éden Tabletop</b> busca facilitar o acesso à mestragem de RPG em ambientes tridimensionais.</p>
+        <p>Hoje existem algumas ferramentas. O <b>Tabletop Simulator</b>, da Steam, permite jogar RPG em 3D, mas não foi feito especificamente para isso e acaba limitado em vários aspectos. O <b>Tabletop de Ordem Paranormal</b> é muito bom, mas é de uso interno. Talvez quem mais se aproxime da ideia de um tabletop 3D seja o <b>Nexus Tabletop</b>; só que ele tem uma barreira de entrada considerável, principalmente para quem não sabe modelar: mesmo usando assets da comunidade, é preciso conhecer Unity, o que deixa tudo bem complexo para quem não tem experiência com desenvolvimento.</p>
+        <p>O objetivo do Éden Tabletop é quebrar essas barreiras: deixar jogadores e mestres montarem e conduzirem suas sessões de RPG em 3D de um jeito simples, <b>sem precisar saber modelagem 3D ou programação</b>.</p>
+      </div>
+    </section>
+
+    <!-- IA no desenvolvimento -->
+    <section class="section about" id="ia">
+      <div class="section-head reveal">
+        <p class="eyebrow">Sobre o desenvolvimento</p>
+        <h2>Inteligência artificial como ferramenta</h2>
+      </div>
+      <div class="about-body reveal">
+        <p>O Éden Tabletop foi desenvolvido com auxílio de ferramentas de inteligência artificial, usadas como suporte em algumas etapas do processo. As ideias, o design, os testes e todas as decisões do projeto são meus.</p>
+        <p>Fui eu que idealizei o Éden Tabletop. Defini os objetivos, pensei em cada função, testei tudo e conduzi o desenvolvimento. A inteligência artificial ajudou no caminho, e a criação do projeto é minha.</p>
+        <p class="signature"><b>Reversi</b></p>
+      </div>
+    </section>
+
   </main>
-
-  <!-- Proposta -->
-  <section class="section about" id="proposta">
-    <div class="section-head reveal">
-      <p class="eyebrow">Proposta</p>
-      <h2>Mestrar em 3D sem barreiras</h2>
-    </div>
-    <div class="about-body reveal">
-      <p>O <b>Éden Tabletop</b> busca facilitar o acesso à mestragem de RPG em ambientes tridimensionais.</p>
-      <p>Hoje existem algumas ferramentas. O <b>Tabletop Simulator</b>, da Steam, permite jogar RPG em 3D, mas não foi feito especificamente para isso e acaba limitado em vários aspectos. O <b>Tabletop de Ordem Paranormal</b> é uma ferramenta incrível, mas de uso interno. Talvez quem mais se aproxime da ideia de um tabletop 3D seja o <b>Nexus Tabletop</b>; só que ele tem uma barreira de entrada considerável, principalmente para quem não sabe modelar: mesmo usando assets da comunidade, é preciso conhecer Unity, o que deixa tudo bem complexo para quem não tem experiência com desenvolvimento.</p>
-      <p>O objetivo do Éden Tabletop é quebrar essas barreiras: permitir que jogadores e mestres criem, organizem e conduzam suas sessões de RPG em ambientes tridimensionais de um jeito acessível, intuitivo e prático, <b>sem precisar dominar modelagem 3D ou programação</b>.</p>
-    </div>
-  </section>
-
-  <!-- IA no desenvolvimento -->
-  <section class="section about" id="ia">
-    <div class="section-head reveal">
-      <p class="eyebrow">Sobre o desenvolvimento</p>
-      <h2>Inteligência artificial como ferramenta</h2>
-    </div>
-    <div class="about-body reveal">
-      <p>O Éden Tabletop foi desenvolvido com auxílio de ferramentas de inteligência artificial, usadas como suporte em algumas etapas do processo. A concepção, o direcionamento, as ideias, a criatividade, o design, os testes e todas as decisões do projeto partiram de mim.</p>
-      <p>Eu sou a mente por trás do Éden Tabletop: idealizei o projeto, defini os objetivos, pensei nas funcionalidades, testei as possibilidades e conduzi o desenvolvimento. A inteligência artificial foi uma ferramenta de auxílio, não a responsável pela criação ou pela concepção do projeto.</p>
-      <p class="signature">— <b>Reversi</b></p>
-    </div>
-  </section>
 
   <footer class="footer">
     <img src="img/logo.png" alt="">
@@ -617,7 +623,7 @@
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <button class="lb-close" aria-label="Fechar">×</button>
     <button class="lb-prev" aria-label="Anterior">‹</button>
-    <img alt="">
+    <img loading="lazy" alt="">
     <p class="lb-cap"></p>
     <button class="lb-next" aria-label="Próxima">›</button>
   </div>
